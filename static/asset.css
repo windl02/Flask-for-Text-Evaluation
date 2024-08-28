@@ -1,0 +1,50 @@
+body {
+    font-family: "Albert Sans", sans-serif;
+}
+
+.main-bg {
+    background-image: url(./media/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1050px;
+}
+
+.box {
+    background-color: #00000080;
+    padding: 48px;
+    border-radius: 8px;
+}
+
+.box-feature {
+    transition: all .5s ease-in-out;
+}
+
+.box-header {
+    font-size: 48px;
+    line-height: 1.25em;
+    margin-bottom: 32px;
+}
+
+.btn-submit {
+    margin-top: 24px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    transition: all .5s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.output-describe {
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #fff;
+}
+
